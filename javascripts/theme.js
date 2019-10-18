@@ -7,6 +7,10 @@ $(function(){
 
 	// open any external links in a new tab
 	$(document.links).filter(function(){
+		var regex = /javascript|mailto/gi;
+		if (regex.test(this.href)) {
+			return false;
+		}
 		return this.hostname!=window.location.hostname
 	}).attr("target","_blank");
 
