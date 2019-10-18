@@ -2,7 +2,7 @@
 
 A free Redmine theme for modern browsers.
 
-![The MIT License](https://img.shields.io/badge/license-MIT-584492.svg) [![Build Status](https://travis-ci.org/mrliptontea/PurpleMine2.svg?branch=master)](https://travis-ci.org/mrliptontea/PurpleMine2) [![Issues](https://img.shields.io/github/issues/mrliptontea/PurpleMine2.svg)](https://github.com/mrliptontea/PurpleMine2/issues) [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+![The MIT License](https://img.shields.io/badge/license-MIT-584492.svg) [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![Build Status](https://img.shields.io/endpoint.svg?url=https://actions-badge.atrox.dev/mrliptontea/PurpleMine2/badge&label=lint&logo=none)](https://actions-badge.atrox.dev/mrliptontea/PurpleMine2/goto) [![Issues](https://img.shields.io/github/issues/mrliptontea/PurpleMine2.svg)](https://github.com/mrliptontea/PurpleMine2/issues)
 
 ---
 
@@ -55,6 +55,23 @@ The path `src/sass/_custom-variables.scss` is added to `.gitignore` so it should
 If you need to customize styles for [Redmine Backlogs][redmine_backlogs] remember to include your `_custom-variables.scss` in `src/sass/plugins/redmine_backlogs/_common.scss`.
 
 ## Changelog
+
+v2.8.0 (2019-08-13):
+
+* Resolved #132: fixed spacing for headers on roadmap pages.
+* Merged fix #136: broken layout with large image attachment
+
+v2.7.0 (2019-06-13):
+
+* Resolved #124: added support for [issue-id](http://projects.andriylesyuk.com/projects/issue-id/) plugin.
+
+v2.6.0 (2019-06-13):
+
+* Resolved #121: added support for [redmine_wiki_page_tree](https://github.com/ledsun/redmine_wiki_page_tree) plugin.
+
+v2.5.0 (2019-06-05):
+
+* Fixed #117, #118 and added many improvements to the responsive layout.
 
 v2.4.0 (2019-06-02):
 
